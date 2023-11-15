@@ -28,6 +28,7 @@ section{
 #main-nav-container{
     display: flex;
     justify-content: space-between;
+    background-color: blue;
 
 
 }
@@ -36,7 +37,17 @@ section{
     display: none;
 }
 
+ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+
 /* main */
+
+main{
+    padding: 20px;
+}
 
 .my-row{
     display: flex;
@@ -209,13 +220,14 @@ section{
 /* MEDIA QUERY */
 
 
-@media screen and (max-width:488px) {
+@media screen and (max-width:480px) {
     .my-row{
         display: inline;
     }
 
     .my-card.big-card{
        width: 100%;
+       display: inline-block;
     }
 
 
@@ -223,13 +235,47 @@ section{
         width: 100%;
     }
 
+    .card-container{
+        margin-left: 50px;
+    }
+    .head-container-img-card{
+        margin-top: 20px;
+    }
+
+    .card{
+        text-align: -webkit-center;
+        display: inline-block;
+    }
+
 
 }
 
 
 /* TABLET */
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
+    .strategic-container{
+        display: inline-block;
+    }
 
+
+    .strategic{
+        width: 100%;
+        padding-left: 50px;
+        
+    }
+
+    
+    .app-development{
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .card-container{
+        margin-left: 50px;
+    }
+    .head-container-img-card{
+        margin-top: 20px;
+    }
 
 
 }
