@@ -47,6 +47,12 @@ section{
     display: flex;
 
 }
+.container-img-big{
+    
+}
+.big-img{
+    max-width: 100%;
+}
 
 .my-col{
    min-width: 33.3%;
@@ -55,7 +61,7 @@ section{
 .strategic-container{
     width: 100%;
     display: flex;
-    background-color: purple;
+    background-color: #9792E4;
 }
 
 .img-strategic{
@@ -68,8 +74,14 @@ section{
     width: 60%;
     display: flex;
     flex-wrap: wrap;
-  
+    align-items: flex-end;
 }
+
+.main-section-img-strategic-1{
+  color: white;
+}
+  
+
 
 .planning1{
     width: 80%;
@@ -87,6 +99,8 @@ section{
     width: 100%;
     margin: 50px;
     margin-top: 200px;
+    position: relative;
+    top: 50px;
 
 }
 
@@ -94,16 +108,28 @@ section{
     width: 40%;
     display: flex;
     flex-wrap: wrap;
- 
+    
 }
 
 .container-card{
     width: 100%;
     border: solid black;
-    background-color: purple;
+    background-color: #9792E4;
     
 
 }
+
+.titolo > h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.titolo > *{
+ color: white;
+}
+
+
 
 .card{
     width: 100%;
@@ -114,7 +140,11 @@ section{
 
 .header-container-img{
     width:  20%;
-    border: solid black;
+    height: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-right: 10px;
     
 
 }
@@ -126,8 +156,11 @@ section{
 .main-container-img{
     width:  80%;
     border: solid black;
-    background-color: white;
+    background-color: #9792E4;
 
+}
+.main-container-img >*{
+    color: white;
 }
 
 
@@ -142,6 +175,7 @@ section{
 
 /* TABLET */
 @media screen and (min-width:768px) {
+
 
 
 }
